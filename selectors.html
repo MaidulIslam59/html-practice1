@@ -6,6 +6,12 @@
     <title>Selectors</title>
 
     <style>
+        *{
+            margin:auto;
+        }
+        div{
+            color: blueviolet;
+        }
         p{
             color: teal;
         }
@@ -19,6 +25,16 @@
             background-color: blue;
             color: #000;
         }
+        .bold, .selector{
+            font-size: larger;
+        }
+        .bold{
+            font-weight: bold;
+        }
+
+        input[type="Password"]{
+            color: springgreen;
+        }
     </style>
 </head>
 <body>
@@ -26,5 +42,23 @@
     <p>Second CSS</p>
     <p id="third">Third CSS</p>
     <p>Fourth CSS</p>
+    <div>
+    <ol class="Selector" >
+        <p>Selector Example</p>
+        <li>Element selector</li>
+        <li>ID selector</li>
+        <li>Class selector</li>
+        <li class="bold">Universal selector</li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+    </div>
+    <form action="">
+        <label for="name">Name</label><br>
+        <input type="text"><br>
+        <label for="password">Password</label><br>
+        <input type="password">
+    </form>
 </body>
 </html>
