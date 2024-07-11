@@ -1,30 +1,60 @@
- <h2>Unordered List Items</h2>
- <ul>
-    <li>Barcelona</li>
-    <li>Real Madrid</li>
-    <li>Man city</li>
-    <li>Arsenal</li>
-    <li>Liverpool</li>
-    <li>Chelsea</li>
-    <li>Inter Miami</li>
-</ul>
+<!DOCTYPE html>
+<html lang="en">
 
-<h2>Ordered List Items</h2>
-<ol type="a">
-   <li>Barcelona</li>
-   <ul>
-    <li>La Masia</li>
-    <li>La liga</li>
-    <li>Champions league</li>
-    <li>Copa Del Rey</li>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      ul.a {
+         list-style-type: lower-roman;
+         background: #ffe5e5;
+         color: darkred;
+         padding: 5px;
+         margin-left: 25px;
+      }
+
+      ol.b {
+         list-style-type: lower-alpha;
+         background: #cce5ff;
+         color: darkblue;
+         padding: 5px;
+         margin: 25px;
+      }
+   </style>
+</head>
+
+<body>
+   <h2>Unordered List Items</h2>
+   <ul class="a">
+      <li>Barcelona</li>
+      <li>Real Madrid</li>
+      <li>Man city</li>
+      <li>Arsenal</li>
+      <li>Liverpool</li>
+      <li>Chelsea</li>
+      <li>Inter Miami</li>
    </ul>
-   <li>Real Madrid</li>
-   <li>Man city</li>
-   <li>Arsenal</li>
-   <li>Liverpool</li>
-   <li>Chelsea</li>
-   <li>Inter Miami</li>
-</ol>
 
-<button>Submit</button>
+   <h2>Ordered List Items</h2>
+   <ol class="b">
+      <li>Barcelona</li>
+      <ul>
+         <li>La Masia</li>
+         <li>La liga</li>
+         <li>Champions league</li>
+         <li>Copa Del Rey</li>
+      </ul>
+      <li>Real Madrid</li>
+      <li>Man city</li>
+      <li>Arsenal</li>
+      <li>Liverpool</li>
+      <li>Chelsea</li>
+      <li>Inter Miami</li>
+   </ol>
 
+   <button>Submit</button>
+
+</body>
+
+</html>

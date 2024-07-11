@@ -1,14 +1,26 @@
+.header{
+    color: bisque;
+    height: 400px;
+    background-image: url('download\ \(1\).png');
+    background-repeat: no-repeat;
+    /* background-size: cover;
+    */
+    background-size: contain;
+}
 .blog{
     
     font-family: 'Courier New', Courier, monospace;
     text-align: justify;
     background-color: ghostwhite;
-    box-shadow: 10px 10px 30px blueviolet;
+    box-shadow: 10px 10px 20px blueviolet;
+    padding: 10px 10px;
+    margin: 10px;
 }
 .new{
     border: 3px solid green;
     color: brown;
     font-size: larger;
     display: block;
+    font-weight: 700;
     
 }
