@@ -1,28 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tablet</title>\
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tablet</title>
+    \
     <style>
-        table, th, td{
-            width: 100%;
-            height: 50px;
-            border: 5px solid;
-            text-align: center;
-            padding: 5px;
-        }
-        tr:hover{
-            background-color: aqua;
-        }
-        th{
-            background-color: #04AA6D;
-            color: white;
-        }
+      table,
+      th,
+      td {
+        width: 100%;
+        height: 50px;
+        border: 5px solid;
+        text-align: center;
+        padding: 5px;
+      }
+      tr:hover {
+        background-color: aqua;
+      }
+      th {
+        background-color: #04aa6d;
+        color: white;
+      }
+      .container {
+        position: relative;
+      }
+      .box-1 {
+        height: 100px;
+        width: 500px;
+        border: 2px solid red;
+        background-color: aqua;
+        position: relative;
+        z-index: 5;
+      }
+      .box-2 {
+        height: 100px;
+        width: 500px;
+        border: 2px solid red;
+        background-color: rgb(255, 187, 0);
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        z-index: 1;
+      }
+      
     </style>
-</head>
-<body>
-    <table>
+  </head>
+  <body>
+    <!-- <table>
         <caption><h2>Demo Table</h2></caption>
        <tr>
         <th>Tachsist Ltd</th>
@@ -48,6 +73,10 @@
         <td>Software Engineer</td>
         <td>3333</td>
        </tr>
-    </table>
-</body>
+    </table> -->
+    <div class="container">
+      <div class="box-1"></div>
+      <div class="box-2"></div>
+    </div>
+  </body>
 </html>
