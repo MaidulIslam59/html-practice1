@@ -1,58 +1,61 @@
-*{
-    padding: 0px;
-    margin: 0px;
+* {
+  padding: 0px;
+  margin: 0px;
 }
-.body{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding: 0 20px 0px 0;
-    /* line-height: 1.4; */
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 0 20px 0px 0;
+  /* line-height: 1.4; */
 }
-.flex-container{
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-  
-    height: 100vh;
-    justify-content: stretch;
-    align-content: stretch;
-    /* height: 500px;
+.flex-container {
+  display: flex;
+  /* width: 100%; */
+  /* flex-wrap: wrap; */
+
+  /* height: 100vh; */
+  /* justify-content: stretch; */
+  /* align-content: stretch; */
+  /* height: 500px;
     display: block;
     flex-wrap: wrap; */
-    /* flex-wrap: nowrap; */
-    /* flex-direction: column-reverse; */
-    /* flex-direction: row-reverse; */
-    /* align-items: stretch; */
-    /* align-content: flex-end; */
-    
+  /* flex-wrap: nowrap; */
+  /* align-content: center; */
+  /* flex-direction: column-reverse; */
+  /* justify-content: space-evenly; */
+  /* flex-direction: row-reverse; */
+  /* align-items: stretch; */
+  justify-content: center;
+  align-items: center;
+  /* align-content: flex-end; */
 }
 
-.flex-item{
-    width: 70px;
-    /* height: 70px; */
-    background-color: aquamarine;
-    border: 2px solid darkslateblue;
-    text-align: center;
-    font-size: large;
-    color: black;
-    font-weight: bold;
-    line-height: 1.4;
+.flex-item {
+  width: 70px;
+  /* height: 70px; */
+  background-color: aquamarine;
+  border: 2px solid darkslateblue;
+  text-align: center;
+  font-size: large;
+  color: black;
+  font-weight: bold;
+  line-height: 1.4;
 }
-#flex-itme-1{
-    background-color: blueviolet;
+#flex-itme-1 {
+  background-color: blueviolet;
 }
-#flex-item-2{
-    background-color: yellowgreen;
+#flex-item-2 {
+  background-color: yellowgreen;
 }
-#flex-item-3{
-    background-color: violet;
+#flex-item-3 {
+  background-color: violet;
 }
-#flex-item-4{
-    background-color: turquoise;
+#flex-item-4 {
+  background-color: turquoise;
 }
-#flex-item-5{
-    background-color: brown;
+#flex-item-5 {
+  background-color: brown;
 }
-#flex-item-6{
-    background-color: chocolate;
+#flex-item-6 {
+  background-color: chocolate;
 }
